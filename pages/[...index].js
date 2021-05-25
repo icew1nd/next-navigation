@@ -65,7 +65,7 @@ const Content = ({ content, headline }) => {
         <Image src="/cats.png" layout="fill" />
       </div>
       <h1>{headline}</h1>
-      <div>{content.content}</div>
+      <div>{content && content.content}</div>
     </div>
   );
 };
